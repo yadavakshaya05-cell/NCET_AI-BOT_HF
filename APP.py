@@ -4,7 +4,7 @@ from transformers import pipeline
 
 @st.cache_resource
 def load_summarizer():
-  return pipeline("Summarization", model="sshleifer/distibart-cnn-12-6")
+  return pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 summarizer = load_summarizer()
 
 st.title(" AI text Summarizer")
