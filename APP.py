@@ -13,8 +13,7 @@ st.write("Enter a long text below, and get a concise summary!")
 long_text = st.text_area("Enter text to summarizer:",height=200)
 max_length = st.slider("Max Summary Length",min_value=50,max_value=300,value=150)
 min_length = st.slider("Min Summary Length", min_value=20,max_valse=100,value=30)
-max_length = st.slider("Max Summary Length", min_value=50, max_value=300, val
-min_length = st.slider("Min Summary Length", min_value=20, max_value=100, val
+
 if st.button("Summarize"):
   if long_text.strip():
     with st.spinner("Generating summary... "):
