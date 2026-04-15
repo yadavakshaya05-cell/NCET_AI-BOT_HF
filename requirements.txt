@@ -1,5 +1,5 @@
-1.streamlit
-2.transformers
-3.torch
-4.accelarate
+streamlit
+transformers
+torch
+accelarate
 
